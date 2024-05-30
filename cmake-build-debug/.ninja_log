@@ -1,4 +1,7 @@
 # ninja log v5
-10	572	1715773150253897995	CMakeFiles/testProject.dir/main.cpp.o	3ab1e30269180768
-572	847	1715773150531971166	testProject	a2b61588bc03a4e9
-12	525	1715773150205279832	CMakeFiles/testProject.dir/Student.cpp.o	14cb15189c9792b3
+3	391	1716828902192664089	CMakeFiles/testProject.dir/main.cpp.o	3ab1e30269180768
+391	467	1716828902270761312	testProject	5436fc5b8f098dd1
+12	569	1715856306118447513	CMakeFiles/testProject.dir/Student.cpp.o	14cb15189c9792b3
+7	392	1715955801915820105	CMakeFiles/testProject.dir/Sales_item.cpp.o	81e04c58bb1f9774
+9	580	1715955742405274146	CMakeFiles/testProject.dir/test1.cpp.o	35617d4c990be83e
+9	482	1716828881889447051	CMakeFiles/testProject.dir/Sales_data.cpp.o	ca2d1fcb76a44b95

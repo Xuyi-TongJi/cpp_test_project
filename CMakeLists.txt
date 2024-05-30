@@ -8,4 +8,10 @@ add_executable(testProject main.cpp
         Student.h
         Sales_item.cpp
         Sales_item.h
+        test1.cpp
+        test1.h
+        Sales_data.cpp
+        Sales_data.h
+        Screen.cpp
+        Screen.h
 )

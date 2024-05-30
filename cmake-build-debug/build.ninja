@@ -67,6 +67,24 @@ build CMakeFiles/testProject.dir/Sales_item.cpp.o: CXX_COMPILER__testProject_uns
   OBJECT_DIR = CMakeFiles/testProject.dir
   OBJECT_FILE_DIR = CMakeFiles/testProject.dir
 
+build CMakeFiles/testProject.dir/test1.cpp.o: CXX_COMPILER__testProject_unscanned_Debug /Users/xuyi/CLionProjects/testProject/test1.cpp || cmake_object_order_depends_target_testProject
+  DEP_FILE = CMakeFiles/testProject.dir/test1.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/testProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/testProject.dir
+
+build CMakeFiles/testProject.dir/Sales_data.cpp.o: CXX_COMPILER__testProject_unscanned_Debug /Users/xuyi/CLionProjects/testProject/Sales_data.cpp || cmake_object_order_depends_target_testProject
+  DEP_FILE = CMakeFiles/testProject.dir/Sales_data.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/testProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/testProject.dir
+
+build CMakeFiles/testProject.dir/Screen.cpp.o: CXX_COMPILER__testProject_unscanned_Debug /Users/xuyi/CLionProjects/testProject/Screen.cpp || cmake_object_order_depends_target_testProject
+  DEP_FILE = CMakeFiles/testProject.dir/Screen.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/testProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/testProject.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target testProject
@@ -75,7 +93,7 @@ build CMakeFiles/testProject.dir/Sales_item.cpp.o: CXX_COMPILER__testProject_uns
 #############################################
 # Link the executable testProject
 
-build testProject: CXX_EXECUTABLE_LINKER__testProject_Debug CMakeFiles/testProject.dir/main.cpp.o CMakeFiles/testProject.dir/Student.cpp.o CMakeFiles/testProject.dir/Sales_item.cpp.o
+build testProject: CXX_EXECUTABLE_LINKER__testProject_Debug CMakeFiles/testProject.dir/main.cpp.o CMakeFiles/testProject.dir/Student.cpp.o CMakeFiles/testProject.dir/Sales_item.cpp.o CMakeFiles/testProject.dir/test1.cpp.o CMakeFiles/testProject.dir/Sales_data.cpp.o CMakeFiles/testProject.dir/Screen.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/testProject.dir
   POST_BUILD = :
